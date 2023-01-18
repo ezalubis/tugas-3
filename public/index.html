@@ -24,7 +24,7 @@
       const caption = document.createElement("caption");
 
       async function bio() {
-        const res = await fetch("/api/cara-biasa/get");
+        const res = await fetch("/cara-biasa/get");
         const data = await res.json();
         for (let bio in data) {
           const tr = document.createElement("tr");
