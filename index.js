@@ -24,7 +24,7 @@ const bio = {
 
     ]
 };
-app.get("/cara-biasa/get", (_req, res) => {
+app.get("/api/cara-biasa/get", (_req, res) => {
     res.send(bio);
 })
 
